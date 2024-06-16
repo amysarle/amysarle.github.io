@@ -1,0 +1,44 @@
+body {
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    background-image: url("../Images/Mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    border-radius: 20px;
+    align-self: start;
+    width: 50vw;
+    margin-top: 25vh;
+    background-color: rgba(255, 255, 255,0.85);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding: 5px 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
