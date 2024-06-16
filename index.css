@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+
+#aboutme, #resume, #projects, #contact {
+    scroll-margin-top: 10vh;
+}
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    background-image: url("../Images/Mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.home-content {
+    border-radius: 20px;
+    align-self: start;
+    width: 50vw;
+    margin-top: 25vh;
+    background-color: rgba(255, 255, 255,0.85);
+}
+
+.home-name {
+    text-align: center;
+}
+
+.home-bio {
+    text-align: center;
+}
+
+.home-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-link {
+    padding: 5px 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-section {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+}
+
+.navbar-img {
+    margin: 5px;
+    border-radius: 5vh;
+    width: 7vh;
+    height: 7vh;
+    object-fit: cover;
+}
+
+.navbar-link {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.aboutme-section {
+    margin: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-profile {
+    width: 50vw;
+}
+
+.aboutme-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-picture-img {
+    margin: 15px;
+    border-radius: 15vh;
+    width: 30vh;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.resume-section {
+    width: 76vw;
+    margin: 10px 12vw;
+}
+
+.resume-section-title {
+    text-decoration: underline;
+}
+
+.resume-entry-title {
+    font-weight: bold;
+}
+
+.resume-entry {
+    margin: 20px;
+}
+
+/*
+.projects-section {
+
+}
+*/
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
