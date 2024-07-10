@@ -1,138 +1,104 @@
 body {
-    margin: 0;
-    font-family: 'Courier New', monospace;
-}
-
-#aboutme, #resume, #projects, #contact {
-    scroll-margin-top: 10vh;
-}
-
-.home-section {
-    display: flex;
-    justify-content: center;
-    background-color: darkgray;
-    background-image: url("../Images/Mountain.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: white;
     margin: 0;
 }
 
-.home-content {
-    border-radius: 20px;
-    align-self: start;
-    width: 50vw;
-    margin-top: 25vh;
-    background-color: rgba(255, 255, 255, 0.85);
+section {
+    padding: 5vw;
 }
 
-.home-name {
-    text-align: center;
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
-.home-bio {
-    text-align: center;
+h1 {
+    margin: 0px;
+    font-size: 60px;
+    font-weight: 200;
 }
 
-.home-links {
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.subheading {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    background-image: url("Images/background-image.jpg");
+    background-size: 200%;
 }
 
-.home-link {
-    padding: 5px 20px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-}
-
-.navbar-section {
-    background-color: lightgray;
+.nav-logo-link {
+    height: 100%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: flex-start;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    height: 10vh;
 }
 
-.navbar-img {
-    margin: 5px;
-    border-radius: 5vh;
-    width: 7vh;
-    height: 7vh;
-    object-fit: cover;
+.nav-logo-image {
+    height: 60%;
+    padding: 10px;
 }
 
-.navbar-link {
-    color: black;
+.nav-logo-text {
+    font-size: 20px;
+    font-weight: 300;
     text-decoration: none;
-    padding: 5px 20px;
-    font-weight: bold;
 }
 
-.section-title {
-    text-align: center;
-}
-
-.aboutme-section {
-    margin: 5vw;
+.nav-links {
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.hero-section {
+    height: 90vh;
+    background-image: url("Images/background-image.jpg");
+    background-size: 200%;
+    display: flex;
     align-items: center;
 }
 
-.aboutme-profile {
-    width: 50vw;
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center center;
 }
 
-.aboutme-picture {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.hero-profile-image {
+    border-radius: 100%;
+    width: 70%;
 }
 
-.aboutme-picture-img {
-    margin: 15px;
-    border-radius: 15vh;
-    width: 30vh;
-    height: 30vh;
-    object-fit: cover;
+.hero-content {
+    text-align: right;
 }
 
-.resume-section {
-    width: 76vw;
-    margin: 10px 12vw;
-}
-
-.resume-section-title {
-    text-decoration: underline;
-}
-
-.resume-entry-title {
-    font-weight: bold;
-}
-
-.resume-entry {
-    margin: 20px;
-}
-
-/*
-.projects-section {
-
-}
-*/
-
-.contact-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.hero-button {
+    background-color: white;
+    color: dimgray;
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px 10px;
 }

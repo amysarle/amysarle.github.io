@@ -1,161 +1,40 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
-    <title>Amy's Personal Website</title>
+    <title>Amy Sarle Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <section class="home-section">
-        <div class="home-content">
-            <h1 class="home-name">Amy Sarle</h1>
-            <h2 class="home-bio">Mechanical Engineering and Computer Science student at The Ohio State University</h2>
-            <div class="home-links">
-                <a class="home-link" href="index.html#aboutme">About Me</a>
-                <a class="home-link" href="index.html#resume">Resume</a>
-                <a class="home-link" href="index.html#projects">Projects</a>
-                <a class="home-link" href="index.html#contact">Contact</a>
-            </div>
+    <nav>
+        <a class="nav-logo-link" href="index.html">
+            <img class="nav-logo-image" src="Images/logo-image.png">
+            <p class="nav-logo-text">Amy Sarle</p>
+        </a>
+        <div class="nav-links">
+            <a class="nav-link" href="index.html">About Me</a>
+            <a class="nav-link" href="index.html">Resume</a>
+            <a class="nav-link" href="index.html">Projects</a>
+            <a class="nav-link" href="index.html">Contact</a>
         </div>
-    </section>
-
-    <nav class="navbar-section">
-        <a class="navbar-link" href="index.html#"><img class="navbar-img" src="Images/Mountain.jpg"></a>
-        <a class="navbar-link" href="index.html#aboutme">About Me</a>
-        <a class="navbar-link" href="index.html#resume">Resume</a>
-        <a class="navbar-link" href="index.html#projects">Projects</a>
-        <a class="navbar-link" href="index.html#contact">Contact</a>
     </nav>
 
-    <a id="aboutme"></a>
-
-    <h1 class="section-title">About Me</h1>
-
-    <section class="aboutme-section">
-        <div class="aboutme-profile">
-            <h2>Hi I'm Amy!</h2>
-            <p>
-                I am currently a college student studing Mechanical Engineering and Computer Science at The Ohio
-                State
-                University. I will be graduating December 2024.
-            </p>
-            <p>
-                I am a SEP Intern at JP Morgan working out of the Columbus office. I am working on a project that
-                aims
-                to convert natural language into usable SQL queries.
-            </p>
-            <p>
-                I am interested in all fields of computer science from web development to data engineering to AI/ML
-                but
-                am working on narrowing my interests to determine my career path.
-            </p>
-            <p>
-                Some of my other interests are various outdoor hobbies like backpacking, snowboarding, and climbing.
-                I
-                am currently training for a triathlon. I also enjoy reading and cooking.
-            </p>
-        </div>
-        <div class="aboutme-picture">
-            <img class="aboutme-picture-img" src="Images/Me.JPG">
-        </div>
-    </section>
-
-    <a id="resume"></a>
-
-    <h1 class="section-title">Resume</h1>
-
-    <section class="resume-section">
-        <div>
-            <h2 class="resume-section-title">Skills</h2>
-
-            <div class="resume-entry">
-                <p class="resume-entry-title">Languages</p>
-                <p>Python, HTML/CSS, Java, JavaScript, C/C++</p>
+    <section class="hero-section">
+        <div class="hero-grid">
+            <img class="hero-profile-image" src="Images/profile-image.jpg">
+            <div class="hero-content">
+                <p class="subheading">WELCOME TO MY WEBSITE</p>
+                <h1>Hi, I'm Amy</h1>
+                <p>Software Engineer, Full Stack Developer, Designer</p>
+                <a href="index.html">
+                    <button class="hero-button">View Projects</button>
+                </a>
             </div>
         </div>
-        <div>
-            <h2 class="resume-section-title">Education</h2>
-
-            <div class="resume-entry">
-                <p class="resume-entry-title">The Ohio State University, December 2024</p>
-                <p>B.S. Mechanical Engineering, Minor Computer Science</p>
-                <p>Mechanical Engineering Top Academic Award Recipient</p>
-            </div>
-        </div>
-        <div>
-            <h2 class="resume-section-title">Experience</h2>
-
-            <div class="resume-entry">
-                <p class="resume-entry-title">GE Aerospace, May-August 2023</p>
-                <p>Supply Chain Assembly Intern</p>
-                <ul>
-                    <li>
-                        Led effort to design tooling setup for F404 engine production ramp, worked with mechanics and
-                        engineering team to ensure all requirements were satisfied
-                    </li>
-                    <li>Designed fixture to enable use of liquid nitrogen to chill parts used in HPT/LPT interference
-                        fits</li>
-                </ul>
-            </div>
-
-            <div class="resume-entry">
-                <p class="resume-entry-title">GE Renewables, May-August 2022</p>
-                <p>System Simulation and Dynamics Engineering Intern</p>
-                <ul>
-                    <li>
-                        Conducted sensitivity studies to determine the dynamic effects of wind turbine geometry changes,
-                        presented findings to teams for future design iterations
-                    </li>
-                    <li>Created tool for results analysis (Python)</li>
-                </ul>
-            </div>
-
-            <div class="resume-entry">
-                <p class="resume-entry-title">GE Aviation, September-December 2021</p>
-                <p>Control Systems Engineering Intern</p>
-                <ul>
-                    <li>Made improvements to F110 controls model batch testing script (Perl)</li>
-                    <li>Implemented analysis tool with relevant test cases to automate controls testing</li>
-                </ul>
-            </div>
-
-            <div class="resume-entry">
-                <p class="resume-entry-title">MicroLink Devices, May-August 2021</p>
-                <p>Software Engineering Intern</p>
-                <ul>
-                    <li>
-                        Created application to interface with power supply and spectrometers and process the results
-                        into voltage measurements for multi-layer solar cells (Python)
-                    </li>
-                    <li>Preformed calibrations and validation testing to analyze the accuracy of measurements</li>
-                    <li>Linked application to database to save measurement results (SQL) and created webpage to display
-                        results (PHP)</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <a id="projects"></a>
-
-    <h1 class="section-title">Projects</h1>
-
-    <section class="projects-section">
-
-    </section>
-
-    <a id="contact"></a>
-
-    <h1 class="section-title">Contact</h1>
-
-    <section class="contact-section">
-        <p><b>Email: </b>sarle.amy@gmail.com</p>
-        <p><b>Phone: </b>(937)716-6507</p>
-        <p><b>Linkedin: </b>
-            <a
-                href="https://www.linkedin.com/in/amy-sarle-ba66671b7">https://www.linkedin.com/in/amy-sarle-ba66671b7</a>
-        </p>
     </section>
 
 </body>
