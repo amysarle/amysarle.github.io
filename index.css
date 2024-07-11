@@ -3,34 +3,88 @@ body {
     margin: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/*
+    Nav Section Styles
+*/
+
 .nav-section {
-    background-color: red;
     width: 100%;
     height: 75px;
+    position: fixed;
 }
+
+.nav-content {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-logo-image {
+    background-color: aqua;
+    width: 35px;
+    height: 35px;
+}
+
+.nav-logo-text {
+    padding: 0px 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    padding-left: 20px;
+}
+
+/*
+    Hero Section Styles
+*/
 
 .hero-section {
     background-color: orange;
     width: 100%;
     height: 625px;
+    padding-top: 75px;
 }
 
 .about-section {
     background-color: yellow;
     width: 100%;
+    height: 625px;
 }
 
 .resume-section {
     background-color: green;
     width: 100%;
+    height: 625px; /*Change based on height of content*/
 }
 
 .projects-section {
     background-color: blue;
     width: 100%;
+    height: 625px; /*Change based on height of content*/
 }
 
 .contact-section {
     background-color: purple;
     width: 100%;
+    height: 425px; /*Change based on height of content*/
 }
