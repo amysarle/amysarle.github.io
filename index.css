@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 5px;
+}
+
 a {
     color: inherit;
     text-decoration: inherit;
@@ -86,9 +90,37 @@ a {
 */
 
 .about-section {
-    background-color: yellow;
+    background-color: grey;
     width: 100%;
     height: calc(100vh - 75px);
+}
+
+.about-content {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.about-text {
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-image {
+    background-color: black;
+    width: 55vh;
+    height: 55vh;
+    margin: auto;
+    border-radius: 40vh;
 }
 
 /*
