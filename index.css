@@ -1,3 +1,7 @@
+/*
+    General Styles
+*/
+
 body {
     color: black;
     margin: 0;
@@ -10,6 +14,10 @@ p {
 a {
     color: inherit;
     text-decoration: inherit;
+}
+
+.anchor {
+    scroll-margin-top: 75px;
 }
 
 /*
@@ -40,9 +48,10 @@ a {
 }
 
 .nav-logo-image {
-    background-color: grey;
-    width: 35px;
-    height: 35px;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
 }
 
 .nav-logo-text {
@@ -74,14 +83,13 @@ a {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 .hero-text {
-    margin-right: 10%;
     text-align: right;
 }
 
@@ -99,16 +107,15 @@ a {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 5% 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0px;
+    gap: 5%;
     justify-content: space-around;
     align-content: center;
 }
 
 .about-text {
-    padding-left: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,10 +135,130 @@ a {
 */
 
 .resume-section {
-    background-color: green;
+    background-color: lightgray;
     width: 100%;
-    height: 625px; /*Change based on height of content*/
 }
+
+.resume-content {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resume-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.resume-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.resume-education {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.resume-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.resume-item-logo {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    flex-shrink: 0;
+}
+
+.resume-item-content {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.resume-item-title {
+    margin-top: 0px;
+}
+
+/*.resume-item-info {
+
+}
+
+.resume-item-desc {
+
+}*/
+
+
+.resume-skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 5%;
+}
+
+.resume-skills-logos {
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 5%;
+    row-gap: 5%;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.resume-skills-logo {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    place-self: center;
+}
+
+.resume-skills-logo {
+    grid-column: span 4;
+}
+
+.resume-skills-spacer {
+    grid-column: span 2;
+}
+
+.resume-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/*.resume-item-list {
+
+}*/
+
+
+/*
+    Projects Section Styles
+*/
 
 .projects-section {
     background-color: blue;
