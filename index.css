@@ -87,7 +87,7 @@ a {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    padding: 5% 10%;
+    padding: 5rem 10rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -111,12 +111,10 @@ a {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    padding: 5% 10%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5%;
+    padding: 5rem 10rem;
+    display: flex;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
 }
 
 .about-text {
@@ -124,14 +122,15 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-right: 10rem;
 }
 
 .about-image {
     background-color: black;
     width: 55vh;
     height: 55vh;
-    margin: auto;
     border-radius: 40vh;
+    flex-shrink: 0;
 }
 
 /*
@@ -147,7 +146,7 @@ a {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    padding: 2% 10%;
+    padding: 5rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -157,7 +156,7 @@ a {
 .resume-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5%;
+    gap: 5rem;
     justify-content: space-around;
     align-content: center;
 }
@@ -192,7 +191,7 @@ a {
 }
 
 .resume-item-content {
-    padding-left: 10px;
+    padding-left: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -217,14 +216,14 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 5%;
+    padding-top: 1rem;
 }
 
 .resume-skills-logos {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 5%;
+    gap: 2rem;
     justify-content: center;
     align-content: space-between;
 }
@@ -266,7 +265,7 @@ a {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    padding: 2% 10%;
+    padding: 5rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -279,9 +278,9 @@ a {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 5%;
-    row-gap: 20px;
-    padding-top: 20px;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding-top: 1rem;
 }
 
 .project-item {
@@ -322,7 +321,7 @@ a {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    padding: 2% 10%;
+    padding: 5rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -332,9 +331,9 @@ a {
 .contact-logos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10%;
+    gap: 3rem;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 1rem;
 }
 
 .contact-logo {
