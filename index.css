@@ -343,3 +343,14 @@ a {
     height: 100px;
     border-radius: 50px;
 }
+
+/*
+    Footer Section Styles
+*/
+
+.footer-section {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
