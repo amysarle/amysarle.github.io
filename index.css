@@ -101,6 +101,10 @@ a {
     text-align: right;
 }
 
+/*.hero-subheading {
+
+}*/
+
 /*
     About Section Styles
 */
@@ -132,6 +136,10 @@ a {
     align-items: flex-start;
     margin-right: 10rem;
 }
+
+/*.about-info {
+
+}*/
 
 .about-image {
     background-color: black;
