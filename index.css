@@ -33,14 +33,16 @@ h1 {
 
 h2 {
     font-size: 40px;
-    font-weight: 200;
-    margin: 0;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 h3 {
     font-size: 25px;
     font-weight: 400;
-    margin: 1rem 0px;
+    margin: 0px;
+    margin-bottom: 0.5rem;
 }
 
 p {
@@ -71,7 +73,18 @@ p {
 .about-text {
     font-size: 18px;
     font-weight: 400;
+    text-indent: 2rem;
     margin-top: 0.5rem;
+}
+
+.about-button {
+    color: #090224;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.resume-items {
+    color: #090224;
 }
 
 .resume-item-title {
@@ -194,16 +207,28 @@ p {
 }
 
 .about-info {
+    border: 5px solid white;
+    border-radius: 2rem;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     margin-right: 10rem;
+    padding: 2rem;
+}
+
+.about-button {
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .about-image {
-    width: 55vh;
-    height: 55vh;
+    width: 65vh;
+    height: 65vh;
     border-radius: 40vh;
     flex-shrink: 0;
     object-fit: cover;
@@ -240,6 +265,7 @@ p {
     gap: 5rem;
     justify-content: space-around;
     align-content: center;
+    padding-top: 1rem;
 }
 
 .resume-left{
@@ -250,10 +276,15 @@ p {
 }
 
 .resume-education {
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    border-radius: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 2rem;
 }
 
 .resume-item {
@@ -290,19 +321,22 @@ p {
 }
 
 .resume-skills {
+    box-sizing: border-box;
+    background-color: white;
     width: 100%;
+    border-radius: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 1rem;
+    margin-top: 1rem;
+    padding: 2rem;
 }
 
 .resume-skills-logos {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 2rem;
     justify-content: center;
     align-content: space-between;
 }
@@ -331,10 +365,15 @@ p {
 }
 
 .resume-work {
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    border-radius: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 2rem;
 }
 
 /*
@@ -383,6 +422,7 @@ p {
 .project-image {
     width: 100%;
     height: 200px;
+    border-radius: 1rem;
     object-fit: cover;
 }
 
