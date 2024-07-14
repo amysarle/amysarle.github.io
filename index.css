@@ -257,12 +257,22 @@ a {
 }
 
 .resume-skills-logo {
-    background-color: black;
+    background-color: white;
     width: 100px;
     height: 100px;
     border-radius: 50px;
     place-self: center;
     grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-skills-logo-image {
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+    object-fit: contain;
 }
 
 .resume-skills-spacer {
