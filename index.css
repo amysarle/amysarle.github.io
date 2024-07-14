@@ -211,7 +211,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 10rem;
+    padding-right: 5rem;
+    border-right: 2px solid white;
 }
 
 .about-button {
@@ -228,6 +229,7 @@ p {
     border-radius: 10vh;
     flex-shrink: 0;
     object-fit: cover;
+    margin-left: 5rem;
 }
 
 /*
