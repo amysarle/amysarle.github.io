@@ -8,12 +8,8 @@ html {
 
 body {
     color: white;
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
-}
-
-p {
-    margin: 5px;
 }
 
 a {
@@ -23,6 +19,95 @@ a {
 
 .anchor {
     scroll-margin-top: 75px;
+}
+
+/*
+    Font Styles
+*/
+
+h1 {
+    font-size: 60px;
+    font-weight: 200;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 1rem 0px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.nav-logo-text {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.hero-subheading {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1rem 0px;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0.5rem 0px;
+}
+
+.resume-item-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+}
+
+.resume-item-info {
+    color: lightblue;
+    margin-bottom: 0.5rem;
+}
+
+.resume-item-desc {
+    margin-bottom: 0.5rem;
+}
+
+.resume-item-list {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-desc {
+    margin-bottom: 0.5rem;
+}
+
+.project-tech {
+    color: lightblue;
+    margin-bottom: 0.5rem;
 }
 
 /*
@@ -103,10 +188,6 @@ a {
     text-align: right;
 }
 
-/*.hero-subheading {
-
-}*/
-
 /*
     About Section Styles
 */
@@ -132,17 +213,13 @@ a {
     align-items: center;
 }
 
-.about-text {
+.about-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     margin-right: 10rem;
 }
-
-/*.about-info {
-
-}*/
 
 .about-image {
     width: 55vh;
@@ -232,18 +309,6 @@ a {
     align-items: flex-start;
 }
 
-.resume-item-title {
-    margin-top: 0px;
-}
-
-/*.resume-item-info {
-
-}
-
-.resume-item-desc {
-
-}*/
-
 .resume-skills {
     width: 100%;
     display: flex;
@@ -291,10 +356,6 @@ a {
     justify-content: flex-start;
     align-items: flex-start;
 }
-
-/*.resume-item-list {
-
-}*/
 
 /*
     Projects Section Styles
@@ -344,18 +405,6 @@ a {
     height: 200px;
     object-fit: cover;
 }
-
-/*.project-title {
-
-}
-
-.project-desc {
-    
-}
-
-.project-tech {
-    
-}*/
 
 /*
     Contact Section Styles
