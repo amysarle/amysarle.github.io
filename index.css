@@ -8,6 +8,7 @@ html {
 
 body {
     color: white;
+    font-family: sans-serif;
     margin: 0;
 }
 
@@ -78,6 +79,7 @@ a {
 .hero-section {
     background-image: url("Images/Backgrounds/hero-background.jpg");
     background-size: cover;
+    border-bottom: 1px solid white;
     width: 100%;
     height: calc(100vh - 75px);
     padding-top: 75px;
@@ -110,7 +112,8 @@ a {
 */
 
 .about-section {
-    background-color: grey;
+    background-color: #090224;
+    border-bottom: 1px solid white;
     width: 100%;
     height: calc(100vh - 75px);
     display: flex;
@@ -154,7 +157,8 @@ a {
 */
 
 .resume-section {
-    background-color: lightgray;
+    background-color: #090224;
+    border-bottom: 1px solid white;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -297,7 +301,8 @@ a {
 */
 
 .projects-section {
-    background-color: gray;
+    background-color: #090224;
+    border-bottom: 1px solid white;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -357,7 +362,8 @@ a {
 */
 
 .contact-section {
-    background-color: lightgray;
+    background-color: #090224;
+    border-bottom: 1px solid white;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -406,8 +412,15 @@ a {
 */
 
 .footer-section {
-    background-color: gray;
+    background-color: #090224;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/*
+    Notes:
+
+     - Background 1: #090224
+     - Background 2: #04063E
+*/
