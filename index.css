@@ -147,6 +147,7 @@ a {
     height: 55vh;
     border-radius: 40vh;
     flex-shrink: 0;
+    object-fit: cover;
 }
 
 /*
