@@ -15,6 +15,9 @@ body {
 a {
     color: inherit;
     text-decoration: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .anchor {
