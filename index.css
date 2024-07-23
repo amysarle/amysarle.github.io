@@ -67,10 +67,15 @@ p {
     margin: 0;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 .hero-subheading {
     font-size: 16px;
     font-weight: 600;
     margin: 1rem 0px;
+    text-transform: uppercase;
 }
 
 .about-text {
