@@ -273,6 +273,8 @@ p {
     grid-template-columns: 2fr 3fr;
     grid-template-rows: auto 1fr;
     gap: 2rem;
+    justify-content: space-around;
+    align-content: center;
     grid-template-areas: 
         "education work"
         "skills work"
