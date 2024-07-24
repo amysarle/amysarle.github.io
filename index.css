@@ -116,11 +116,17 @@ p {
 */
 
 .nav-section {
-    background-image: url("Images/Backgrounds/hero-background.jpg");
-    background-size: cover;
     width: 100%;
     height: 75px;
     position: fixed;
+    overflow: hidden;
+}
+
+.nav-background {
+    background-image: url("Images/Backgrounds/hero-background.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .nav-content {
@@ -188,6 +194,7 @@ p {
 }
 
 .hero-text {
+    max-width: 60vw;
     text-align: right;
 }
 
@@ -213,12 +220,17 @@ p {
     padding: 4rem;
     display: grid;
     grid-template-columns: 3fr 2fr;
+    grid-template-areas: 
+        "info image"
+    ;
     gap: 2rem;
     justify-content: center;
+    justify-items: center;
     align-items: center;
 }
 
 .about-info {
+    grid-area: info;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -236,6 +248,7 @@ p {
 }
 
 .about-image {
+    grid-area: image;
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 10vh;
@@ -518,5 +531,37 @@ p {
             "work"
             "skills"
         ;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "image"
+            "info"
+        ;
+    }
+
+    .about-info {
+        border-top: 2px solid white;
+        border-right: none;
+        padding-top: 2rem;
+        padding-right: 0;
+    }
+
+    .about-image {
+        width: 50vw;
+        aspect-ratio: 1/1;
+    }
+
+    .projects-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projects-items {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
