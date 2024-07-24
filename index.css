@@ -400,6 +400,12 @@ p {
     padding: 2rem;
 }
 
+.resume-item-skills {
+    align-self: flex-end;
+    width: 90%;
+    display: none;
+}
+
 /*
     Projects Section Styles
 */
@@ -558,9 +564,23 @@ p {
     .projects-items {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .contact-logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+    }
 }
 
 @media screen and (max-width: 500px) {
+    .resume-item-list {
+        display: none;
+    }
+
+    .resume-item-skills {
+        display: block;
+    }
+
     .projects-items {
         grid-template-columns: repeat(1, 1fr);
     }
