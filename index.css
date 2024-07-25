@@ -67,6 +67,10 @@ h1, h2, h3, .hero-subheading, .about-text, .project-title {
     margin: 0.5rem 0px;
 }
 
+.project-title {
+    margin-top: 0.75rem;
+}
+
 p, .nav-logo-text, .nav-link, .resume-item-list{
     margin: 0.25rem 0px;
 }
@@ -502,7 +506,6 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
     .projects-items {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
 
 @media screen and (max-width: 500px) {
@@ -552,11 +555,7 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
         font-size: 28px;
     }
     
-    h3 {
-        font-size: 16px;
-    }
-
-    .nav-logo-text {
+    h3, .nav-logo-text {
         font-size: 18px;
     }
 
