@@ -85,12 +85,35 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
 }
 
 /*
+    All Section Styles
+*/
+
+.hero-section, .about-section, .resume-section, .projects-section, .contact-section, .footer-section {
+    background-color: #090224;
+    border-bottom: 1px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content, .about-content, .resume-content, .projects-content, .contact-content {
+    box-sizing: border-box;
+    max-width: calc(1500px + 4rem);
+    width: 100%;
+    height: 100%;
+}
+
+/*
     Nav Section Styles
 */
 
-.nav-section {
+.nav-section, .nav-content {
     width: 100%;
     height: 75px;
+}
+
+.nav-section {
     position: fixed;
     overflow: hidden;
 }
@@ -104,8 +127,6 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
 
 .nav-content {
     box-sizing: border-box;
-    width: 100%;
-    height: 75px;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -144,20 +165,11 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
 .hero-section {
     background-image: url("Images/Backgrounds/hero-background.jpg");
     background-size: cover;
-    border-bottom: 1px solid white;
-    width: 100%;
     min-height: calc(100vh - 75px);
     padding-top: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero-content {
-    box-sizing: border-box;
-    max-width: calc(1500px + 4rem);
-    width: 100%;
-    height: 100%;
     padding-bottom: 5rem;
     padding-right: 10%;
     display: flex;
@@ -176,20 +188,10 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
 */
 
 .about-section {
-    background-color: #090224;
-    border-bottom: 1px solid white;
-    width: 100%;
     min-height: calc(100vh - 75px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .about-content {
-    box-sizing: border-box;
-    max-width: calc(1500px + 4rem);
-    width: 100%;
-    height: 100%;
     padding: 4rem;
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -233,20 +235,7 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
     Resume Section Styles
 */
 
-.resume-section {
-    background-color: #090224;
-    border-bottom: 1px solid white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .resume-content {
-    box-sizing: border-box;
-    max-width: calc(1500px + 4rem);
-    width: 100%;
-    height: 100%;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -381,20 +370,7 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
     Projects Section Styles
 */
 
-.projects-section {
-    background-color: #090224;
-    border-bottom: 1px solid white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .projects-content {
-    box-sizing: border-box;
-    max-width: calc(1500px + 4rem);
-    width: 100%;
-    height: 100%;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -429,20 +405,7 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
     Contact Section Styles
 */
 
-.contact-section {
-    background-color: #090224;
-    border-bottom: 1px solid white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .contact-content {
-    box-sizing: border-box;
-    max-width: calc(1500px + 4rem);
-    width: 100%;
-    height: 100%;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -480,10 +443,7 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
 */
 
 .footer-section {
-    background-color: #090224;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-bottom: none;
 }
 
 /*
