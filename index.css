@@ -31,40 +31,45 @@ a {
 h1 {
     font-size: 60px;
     font-weight: 200;
-    margin: 0;
 }
 
 h2 {
     font-size: 40px;
     font-weight: 200;
-    margin-top: 0;
-    margin-bottom: 1rem;
 }
 
 h3 {
     font-size: 25px;
     font-weight: 400;
-    margin: 0px;
-    margin-bottom: 0.5rem;
-}
-
-p {
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
 }
 
 .nav-logo-text {
     font-size: 20px;
     font-weight: 200;
-    margin: 0;
 }
 
-.nav-link {
+.resume-item-title, .project-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-text, .about-button {
+    font-size: 18px;
+    font-weight: 400;
+    text-indent: 2rem;
+}
+
+p, .nav-link, .hero-subheading {
     font-size: 16px;
     font-weight: 400;
-    margin: 0;
+}
+
+h1, h2, h3, .hero-subheading, .about-text, .project-title {
+    margin: 0.5rem 0px;
+}
+
+p, .nav-logo-text, .nav-link, .resume-item-list{
+    margin: 0.25rem 0px;
 }
 
 .nav-link:hover {
@@ -72,43 +77,11 @@ p {
 }
 
 .hero-subheading {
-    font-size: 16px;
-    font-weight: 600;
-    margin: 1rem 0px;
     text-transform: uppercase;
 }
 
-.about-text {
-    font-size: 18px;
-    font-weight: 400;
-    text-indent: 2rem;
-    margin-top: 0.5rem;
-}
-
-.about-button {
+.about-button, .resume-items {
     color: #090224;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.resume-items {
-    color: #090224;
-}
-
-.resume-item-title {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.resume-item-list {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-
-.project-title {
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 0.5rem;
 }
 
 /*
@@ -132,7 +105,7 @@ p {
 .nav-content {
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
+    height: 75px;
     padding: 20px;
     display: flex;
     align-items: center;
