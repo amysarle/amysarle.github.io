@@ -524,21 +524,6 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
 }
 
 @media screen and (max-height: 500px){
-    .hero-section {
-        min-height: calc(100vh - 50px);
-        padding-top: 50px;
-    }
-
-    .nav-section, .nav-content {
-        width: 100%;
-        height: 50px;
-    }
-
-    .nav-logo-image {
-        width: 30px;
-        height: 30px;
-    }
-
     .about-image {
         height: 50vh;
         width: auto;
@@ -581,6 +566,21 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
 
     .nav-link, .hero-subheading {
         font-size: 14px;
+    }
+
+    .nav-section, .nav-content {
+        width: 100%;
+        height: 50px;
+    }
+
+    .nav-logo-image {
+        width: 30px;
+        height: 30px;
+    }
+
+    .hero-section {
+        min-height: calc(100vh - 50px);
+        padding-top: 50px;
     }
 
     .about-section {
