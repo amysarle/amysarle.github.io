@@ -286,8 +286,6 @@ p {
     grid-template-columns: 2fr 3fr;
     grid-template-rows: auto 1fr;
     gap: 2rem;
-    justify-content: space-around;
-    align-content: center;
     grid-template-areas: 
         "education work"
         "skills work"
@@ -530,8 +528,8 @@ p {
     }
 
     .resume-items {
-        grid-template-columns: auto;
-        grid-template-rows: auto;
+        grid-template-columns: none;
+        grid-template-rows: none;
         grid-template-areas:
             "education"
             "work"
