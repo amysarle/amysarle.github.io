@@ -56,7 +56,6 @@ h3 {
 .about-text, .about-button {
     font-size: 18px;
     font-weight: 400;
-    text-indent: 2rem;
 }
 
 p, .nav-link, .hero-subheading {
@@ -173,13 +172,14 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
     padding-bottom: 5rem;
     padding-right: 10%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    margin-bottom: 20vh;
+    margin-bottom: 10rem;
 }
 
 .hero-text {
-    max-width: 60vw;
+    max-width: 60%;
     text-align: right;
 }
 
@@ -188,7 +188,7 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
 */
 
 .about-section {
-    min-height: calc(100vh - 75px);
+    padding: 4rem 0px;
 }
 
 .about-content {
@@ -199,7 +199,6 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
         "info image"
     ;
     gap: 2rem;
-    justify-content: center;
     justify-items: center;
     align-items: center;
 }
@@ -226,8 +225,7 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
     grid-area: image;
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 10vh;
-    flex-shrink: 0;
+    border-radius: 5rem;
     object-fit: cover;
 }
 
