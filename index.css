@@ -573,7 +573,7 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
         font-size: 14px;
     }
 
-    .nav-section, .nav-content {
+    .nav-section, .nav-content, .nav-background-container {
         width: 100%;
         height: 50px;
     }
