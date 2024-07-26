@@ -61,9 +61,13 @@ h3 {
 }
 
 p,
-.nav-link,
-.hero-subheading {
+.nav-link {
     font-size: 16px;
+    font-weight: 400;
+}
+
+.hero-subheading {
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -557,7 +561,7 @@ p,
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px), (max-height: 550px) {
     h1 {
         font-size: 40px;
     }
@@ -587,7 +591,14 @@ p,
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
+    .about-content,
+    .resume-content,
+    .projects-content,
+    .contact-content {
+        padding: 2rem 2rem;
+    }
+
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -641,7 +652,7 @@ p,
     }
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 550px) {
     .nav-link {
         padding-top: 12px;
         padding-bottom: 12px;
@@ -658,16 +669,10 @@ p,
         height: 75px;
         border-radius: 50px;
     }
-
-    .contact-logo {
-        width: 60px;
-        height: 60px;
-        border-radius: 50px;
-    }
 }
 
-@media screen and (max-width: 500px),
-(max-height: 500px) {
+@media screen and (max-width: 550px),
+(max-height: 550px) {
     .anchor {
         scroll-margin-top: 50px;
     }
@@ -697,5 +702,11 @@ p,
     .resume-skills,
     .resume-work {
         padding: 1.5rem;
+    }
+
+    .contact-logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
     }
 }
