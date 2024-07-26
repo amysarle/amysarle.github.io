@@ -111,13 +111,16 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
     Nav Section Styles
 */
 
-.nav-section, .nav-content {
+.nav-section, .nav-content, .nav-background-container {
     width: 100%;
     height: 75px;
 }
 
 .nav-section {
     position: fixed;
+}
+
+.nav-background-container {
     overflow: hidden;
 }
 
@@ -129,6 +132,9 @@ p, .nav-logo-text, .nav-link, .resume-item-list{
 }
 
 .nav-content {
+    position: fixed;
+    top: 0;
+    left: 0;
     box-sizing: border-box;
     padding: 20px;
     display: flex;
