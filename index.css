@@ -155,7 +155,7 @@ p,
 }
 
 .nav-background {
-    background-image: url("images/backgrounds/hero-background.jpg");
+    background-image: url("images/backgrounds/background.jpg");
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -212,7 +212,7 @@ p,
 */
 
 .hero-section {
-    background-image: url("images/backgrounds/hero-background.jpg");
+    background-image: url("images/backgrounds/background.jpg");
     background-size: cover;
     min-height: calc(100vh - 75px);
     padding-top: 75px;
