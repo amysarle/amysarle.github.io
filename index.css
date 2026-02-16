@@ -366,6 +366,7 @@ p,
 .resume-skills-logos {
     width: 100%;
     height: 100%;
+    border-bottom: 2rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     justify-content: center;
@@ -387,8 +388,13 @@ p,
 .resume-skills-logo-image {
     width: 75%;
     height: 75%;
-    border-radius: 10px;
+    border-radius: 0px;
     object-fit: contain;
+}
+
+.resume-skills-other {
+    margin-left: 1.5rem;
+    max-width: calc(100% - 1.5rem);
 }
 
 .resume-skills-spacer {
@@ -536,6 +542,7 @@ p,
     .projects-items {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @media screen and (max-width: 800px),
@@ -650,6 +657,7 @@ p,
     .projects-items {
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
 
 @media screen and (max-height: 550px) {
